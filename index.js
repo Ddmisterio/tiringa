@@ -5,13 +5,7 @@ Colaboradores: Resen e Toin
 */
 
 //_API WHATSAPP WEB
-const {
-    WAConnection,
-    MessageType,
-    Presence,
-    Mimetype,
-    GroupSettingChange
-} = require('@adiwajshing/baileys')
+const { WAConnection, MessageType, Presence, Mimetype, GroupSettingChange, MessageOptions, WALocationMessage, WA_MESSAGE_STUB_TYPES, ReconnectMode, ProxyAgent, waChatKey, mentionedJid, processTime, ChatModification } = require('@adiwajshing/baileys');
 
 //_MÓDULOS NPM
 const fs = require('fs');
